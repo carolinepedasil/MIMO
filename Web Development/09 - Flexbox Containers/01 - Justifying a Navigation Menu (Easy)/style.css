@@ -1,0 +1,27 @@
+.container {
+    background-color: #DE9C51;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main {
+    background-color: #FBF4F0;
+    color: #994E21;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item {
+    padding: 8px;
+}
+
+.link.item {
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
