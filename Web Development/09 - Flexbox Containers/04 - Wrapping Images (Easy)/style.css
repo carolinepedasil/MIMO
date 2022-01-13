@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #B1E9FF;
+}
+
+h3 {
+    text-align: center;
+}
