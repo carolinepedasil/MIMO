@@ -1,0 +1,25 @@
+.grid-container {
+    display: grid;
+    grid-template:
+        "header header header"
+        "quotes quotes sidebar"
+}
+
+.grid-item {
+    background-color: #FBF4F0;
+    padding: 5px;
+}
+
+.header {
+    grid-area: header;
+    text-align: center;
+}
+
+.quotes {
+    grid-area: quotes;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    padding-top: 20px;
+}
