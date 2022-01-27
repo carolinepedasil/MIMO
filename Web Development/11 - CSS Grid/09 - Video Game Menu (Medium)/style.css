@@ -1,0 +1,7 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 50px repeat(4, 40px);
+    justify-items: center;
+    align-items: center;
+    background-color: #FBF4F0;
+}
